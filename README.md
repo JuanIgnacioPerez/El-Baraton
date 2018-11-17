@@ -22,11 +22,11 @@ Follow the instructions to download this repository and run it locally.
 
 Clone the repository
 ```bash
-git clone https://gitlab.com/JuanIperez/el-baraton.git
+git clone https://github.com/JuanIgnacioPerez/El-Baraton.git
 ```
 Go to the folder project
 ```bash
-cd el-baraton
+cd El-Baraton
 ```
 Install packages
 ```bash
