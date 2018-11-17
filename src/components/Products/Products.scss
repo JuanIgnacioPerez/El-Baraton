@@ -1,0 +1,86 @@
+@import '../../scss/colors';
+
+.products {
+  margin-top: 40px;
+  overflow-x: hidden;
+  &__box {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  &__item {
+    border: 1px solid $gray-medium-bg;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+    background: $white;
+    margin-top: 20px;
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+
+    &:hover {
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+    &-image {
+      overflow: hidden;
+      text-align: center;
+      img {
+        cursor: pointer;
+        opacity: .6;
+        width: 60%;
+        max-height: 160px;
+        transition: transform 300ms ease-in;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    &-name {
+      text-transform: capitalize;
+      font-size: 22px;
+    }
+
+    &-price {
+      font-size: 22px;
+      font-weight: 700;
+      &::before {
+        content: '$ ';
+      }
+    }
+
+    &-name,
+    &-price {
+      color: $gray-medium;
+      padding: 0 16px;
+      text-align: center;
+    }
+
+    &-action {
+      padding: 16px;
+      button {
+        width: 100%;
+        transition: all 300ms ease-in;
+      }
+    }
+
+    &-button {
+      background: transparent;
+      border: 1px solid $primary-orange;
+      border-radius: 2px;
+      color: $primary-orange;
+      padding: 6px;
+      cursor: pointer;
+      &:hover {
+        background: $secondary-orange;
+        color: $white;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    &__box {
+      margin-top: -10px;
+    }
+  }
+}

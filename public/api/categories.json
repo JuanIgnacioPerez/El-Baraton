@@ -1,0 +1,78 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "label": "Bebidas",
+      "items": [
+        {
+          "id": 1,
+          "label": "Gaseosas",
+          "items": [
+            {
+              "id": 2,
+              "label": "Con azúcar"
+            },
+            {
+              "id": 3,
+              "label": "Sin azúcar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "label": "Desayunos",
+      "items": [
+        {
+          "id": 4,
+          "label": "Fake 1",
+          "items": [
+            {
+              "id": 5,
+              "label": "Fake 2"
+            },
+            {
+              "id": 6,
+              "label": "Fake 3",
+              "items": [
+                {
+                  "id": 7,
+                  "label": "Fake 4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "label": "Almuerzos",
+      "items": [
+        {
+          "id": 9,
+          "label": "Fake 5"
+        },
+        {
+          "id": 10,
+          "label": "Fake 6"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "label": "Vinos",
+      "items": [
+        {
+          "id": 12,
+          "label": "Fake 8"
+        },
+        {
+          "id": 13,
+          "label": "Fake 9"
+        }
+      ]
+    }
+  ]
+}

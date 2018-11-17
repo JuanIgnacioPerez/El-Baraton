@@ -1,0 +1,16 @@
+@import '../../../scss/colors';
+
+.footer {
+    bottom: 0;
+    margin-top: 100px;
+    width: 100%;
+    color: $gray-light;
+    font-size: 14px;
+    text-align: center;
+    padding: 32px;
+    background: $gray-dark-bg;
+    &__strong {
+      color: $gray-medium;
+    }
+  }
+  
